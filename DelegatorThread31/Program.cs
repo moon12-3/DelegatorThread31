@@ -25,7 +25,11 @@ namespace DelegatorThread31
                     Console.Write("C");
                 }
             });
+            threadA.Start();
+            threadB.Start();
+            threadC.Start();
         }
+
 
         public static void DoSomething()
         {
